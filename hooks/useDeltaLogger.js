@@ -26,7 +26,7 @@ export function useDeltaLogger(stateMap, initialWatchList = []) {
                 `%c${delta.toFixed(3)}s%c since "%c${label}%c" last changed — current value: %c${value}`,
                 'color: teal; font-weight: bold;',
                 '',
-                'color: steelblue;font-weight:bold; font-style: italic;',
+                'color: steelblue;font-weight:bold;font-size:1.05rem; font-style: italic;',
                 '',
                 'color: purple; font-weight: bold;'
             )
