@@ -3,8 +3,8 @@
 A collection of reusable helper functions and logic snippets.
 
 ## SEARCH INDEX
-* **CONSOLE HELPER** - Styled console logger with optional color coding, line reference, and array/object formatting
-* **DELTA LOGGER** - Logs per-state time deltas with dynamic watch control, helping debug sequences and state transitions
+* **CONSOLE_HELPER** - Location: `/helpers/consoleHelper.js`. Simplifies color-coded logging.
+* **DELTA_LOGGER** - Location: `/hooks/useDeltaLogger.js`. Tracks state changes in React components.
 
 ---
 
