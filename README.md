@@ -3,7 +3,8 @@
 A collection of reusable helper functions and logic snippets.
 
 ## SEARCH INDEX
-* **ENHANCED CONSOLE.LOG** 
+* **CONSOLE HELPER** - Styled console logger with optional color coding, line reference, and array/object formatting
+* **DELTA LOGGER** - Logs per-state time deltas with dynamic watch control, helping debug sequences and state transitions
 
 ---
 
@@ -12,4 +13,5 @@ A collection of reusable helper functions and logic snippets.
 2. Copy the file you need into your local project.
 
 ## RECENT UPDATES
-- [12/23/25] Added **ENHANCED CONSOLE.LOG** for handling [console.logging with source,color].
+- [12/23/25] Added **CONSOLE HELPER** for handling [console.logging with source,color].
+- [12/23/25] Added **DELTA LOGGER** for handling [dynamic state watching].
