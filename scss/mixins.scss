@@ -1,0 +1,28 @@
+
+@mixin b($w:5px,$c:red,$l:solid){
+	box-sizing: border-box;
+	border: $w $c $l;
+}
+
+//@ in using file:
+//@ $shhh: <boolean>
+//@ $hide: <boolean>
+//@ IMPORTANT: use at bottom of section class
+//@ example:
+// $shhh: true !default; = section greyed out
+// $hide: true; 		 = total hide
+// 
+// .section {
+//   @if $shhh {
+//     @include shhh($hide);
+//   }
+// }
+@mixin shhh($hide: false) {
+	@apply pointer-events-none;
+	filter: grayscale(1);
+  
+	@if $hide {
+	  display: none;
+	}
+}
+
