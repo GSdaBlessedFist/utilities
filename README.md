@@ -17,4 +17,4 @@ A collection of reusable helper functions and logic snippets.
 - [01/06/26] Added **HELPER_MIXINS** for design prototyping.
 - [12/23/25] Added **CONSOLE_HELPER** for handling [console.logging with source,color].
 - [12/23/25] Added **DELTA_LOGGER** for handling [dynamic state watching].
-- [01/17/26] Added **JSON_SKELETON_GENERATOR for creating safe initial React state from any JSON file.
+- [01/17/26] Added **JSON_SKELETON_GENERATOR** for creating safe initial React state from any JSON file.
