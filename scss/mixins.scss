@@ -1,7 +1,6 @@
-
-@mixin b($w:5px,$c:red,$l:solid){
-	box-sizing: border-box;
-	border: $w $c $l;
+@mixin b($w: 5px, $c: red, $l: solid) {
+  box-sizing: border-box;
+  border: $w $c $l;
 }
 
 //@ in using file:
@@ -11,18 +10,21 @@
 //@ example:
 // $shhh: true !default; = section greyed out
 // $hide: true; 		 = total hide
-// 
+//
 // .section {
 //   @if $shhh {
 //     @include shhh($hide);
 //   }
 // }
+//
+// OR
+// @include shhh(boolean);
 @mixin shhh($hide: false) {
-	@apply pointer-events-none;
-	filter: grayscale(1);
-  
-	@if $hide {
-	  display: none;
-	}
-}
+  @apply pointer-events-none;
+  filter: grayscale(1);
+  opacity: 0.25;
 
+  @if $hide {
+    display: none;
+  }
+}
